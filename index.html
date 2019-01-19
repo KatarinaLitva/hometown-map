@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset=utf-8 />
-	<title>Web Page Template</title>
+	<title>My Hometown Map - Winnipeg, Manitoba, Canada</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
@@ -74,15 +74,13 @@
 
 		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
 
-		<h1>Hello Canada!</h1>
+		<h1>Winnipeg, the Gateway to the West</h1>
 
 		<div id='map'></div>
 
 
 		<h2>about this map</h2>
-		<p>Additional information about
-			<a href="#">the data</a> and map goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis urna magna, maximus nec
-			laoreet sit amet, dictum ultricies nibh. Ut id auctor lacus. Nam a dolor et justo luctus luctus.</p>
+		<p>Winnipeg, Manitoba is centrally located within Canada, and is considered to be the centre of North America.</p>
 
 		<ul>
 			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
@@ -105,8 +103,8 @@
 
 		// map options
 		var options = {
-			center: [38.0406, -84.5037], // lat/lon values
-			zoom: 12
+			center: [49.8844, -97.14704], // lat/lon values
+			zoom: 10
 		}
 
 		// create a Leaflet map in our division container with id of 'map'
@@ -120,7 +118,7 @@
 		}).addTo(map);
 
 		// write a custom message for the Leaflet tooltip
-		var message = 'Lexington is awesome!';
+		var message = 'Winterpeg, Manisnowba!';
 
 		// add a marker to the center of the map and open the tooltip
 		L.marker(map.getCenter())
